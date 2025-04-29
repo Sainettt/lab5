@@ -10,5 +10,17 @@
       </a>
     </li>
     <% }); %> <% } %>
+
+    <li class="navigation__item navigation__cart">
+      <a href="/cart" class="navigation__link">
+        <span>Cart</span>
+        <img
+          class="navigation__cart"
+          src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/shopping-cart.svg"
+          alt="Cart"
+        />
+        <span class="navigation__badge"><%= cartCount %></span>
+      </a>
+    </li>
   </ul>
 </nav>
